@@ -391,7 +391,7 @@ Joystick_::Joystick_(
 		if (includeRudder == true) {
 			// USAGE (Rudder)
 			tempHidReportDescriptor[hidReportDescriptorSize++] = 0x09;
-			tempHidReportDescriptor[hidReportDescriptorSize++] = 0xBA;
+			tempHidReportDescriptor[hidReportDescriptorSize++] = 0xBB;
 		}
 
 		if (includeThrottle == true) {
